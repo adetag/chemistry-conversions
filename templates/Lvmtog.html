@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Lvmtog{%  endblock %}
+
+{%  block content %}
+
+<p>Enter number of moles of Livermorium and click "submit" to convert to grams</p>
+
+<form action="/Lvmtog_result">
+  Moles of Livermorium:<br>
+  <input type="text" name="m" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

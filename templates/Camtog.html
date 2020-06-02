@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Camtog{%  endblock %}
+
+{%  block content %}
+
+<p>Enter number of moles of Calcium and click "submit" to convert to grams</p>
+
+<form action="/Camtog_result">
+  Moles of Calcium:<br>
+  <input type="text" name="m" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

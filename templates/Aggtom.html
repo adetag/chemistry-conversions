@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Aggtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Silver and click "submit" to convert to moles</p>
+
+<form action="/Aggtom_result">
+  Mass of Silver:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

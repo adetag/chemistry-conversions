@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Mngtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Manganese and click "submit" to convert to moles</p>
+
+<form action="/Mngtom_result">
+  Mass of Manganese:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

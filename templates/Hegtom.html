@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Hegtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Helium and click "submit" to convert to moles</p>
+
+<form action="/Hegtom_result">
+  Mass of Helium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

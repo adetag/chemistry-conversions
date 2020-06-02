@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Sbmtog{%  endblock %}
+
+{%  block content %}
+
+<p>Enter number of moles of Antimony and click "submit" to convert to grams</p>
+
+<form action="/Sbmtog_result">
+  Moles of Antimony:<br>
+  <input type="text" name="m" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

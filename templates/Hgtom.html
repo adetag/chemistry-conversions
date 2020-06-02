@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Hgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Hydrogen and click "submit" to convert to moles</p>
+
+<form action="/Hgtom_result">
+  Mass of Hydrogen:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Regtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Rhenium and click "submit" to convert to moles</p>
+
+<form action="/Regtom_result">
+  Mass of Rhenium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

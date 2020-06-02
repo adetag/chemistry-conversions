@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Nigtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Nickel and click "submit" to convert to moles</p>
+
+<form action="/Nigtom_result">
+  Mass of Nickel:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

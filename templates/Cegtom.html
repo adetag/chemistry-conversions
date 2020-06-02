@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Cegtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Cerium and click "submit" to convert to moles</p>
+
+<form action="/Cegtom_result">
+  Mass of Cerium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

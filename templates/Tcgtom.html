@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Tcgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Technetium and click "submit" to convert to moles</p>
+
+<form action="/Tcgtom_result">
+  Mass of Technetium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

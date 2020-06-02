@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Fgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Fluorine and click "submit" to convert to moles</p>
+
+<form action="/Fgtom_result">
+  Mass of Fluorine:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

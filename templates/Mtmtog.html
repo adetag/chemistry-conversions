@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Mtmtog{%  endblock %}
+
+{%  block content %}
+
+<p>Enter number of moles of Meitnerium and click "submit" to convert to grams</p>
+
+<form action="/Mtmtog_result">
+  Moles of Meitnerium:<br>
+  <input type="text" name="m" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Pgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Phosphorous and click "submit" to convert to moles</p>
+
+<form action="/Pgtom_result">
+  Mass of Phosphorous:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

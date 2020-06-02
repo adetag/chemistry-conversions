@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Ogtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Oxygen and click "submit" to convert to moles</p>
+
+<form action="/Ogtom_result">
+  Mass of Oxygen:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

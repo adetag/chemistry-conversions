@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Kmtog{%  endblock %}
+
+{%  block content %}
+
+<p>Enter number of moles of Potassium and click "submit" to convert to grams</p>
+
+<form action="/Kmtog_result">
+  Moles of Potassium:<br>
+  <input type="text" name="m" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

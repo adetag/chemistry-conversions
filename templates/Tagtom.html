@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Tagtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Tantalum and click "submit" to convert to moles</p>
+
+<form action="/Tagtom_result">
+  Mass of Tantalum:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

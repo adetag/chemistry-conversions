@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Ergtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Erbium and click "submit" to convert to moles</p>
+
+<form action="/Ergtom_result">
+  Mass of Erbium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

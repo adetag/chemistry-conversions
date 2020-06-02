@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Ptgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Platinum and click "submit" to convert to moles</p>
+
+<form action="/Ptgtom_result">
+  Mass of Platinum:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

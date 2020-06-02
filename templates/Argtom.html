@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Argtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Argon and click "submit" to convert to moles</p>
+
+<form action="/Argtom_result">
+  Mass of Argon:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}
