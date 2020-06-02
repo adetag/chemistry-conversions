@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Dygtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Dysprosium and click "submit" to convert to moles</p>
+
+<form action="/Dygtom_result">
+  Mass of Dysprosium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

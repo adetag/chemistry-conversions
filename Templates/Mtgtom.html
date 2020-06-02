@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Mtgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Meitnerium and click "submit" to convert to moles</p>
+
+<form action="/Mtgtom_result">
+  Mass of Meitnerium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

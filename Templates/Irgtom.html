@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Irgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Iridium and click "submit" to convert to moles</p>
+
+<form action="/Irgtom_result">
+  Mass of Iridium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

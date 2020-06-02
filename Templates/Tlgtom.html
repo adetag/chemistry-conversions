@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Tlgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Thallium and click "submit" to convert to moles</p>
+
+<form action="/Tlgtom_result">
+  Mass of Thallium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Asgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Arsenic and click "submit" to convert to moles</p>
+
+<form action="/Asgtom_result">
+  Mass of Arsenic:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Wmtog{%  endblock %}
+
+{%  block content %}
+
+<p>Enter number of moles of Tungsten and click "submit" to convert to grams</p>
+
+<form action="/Wmtog_result">
+  Moles of Tungsten:<br>
+  <input type="text" name="m" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

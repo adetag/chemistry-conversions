@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Imtog{%  endblock %}
+
+{%  block content %}
+
+<p>Enter number of moles of Iodine and click "submit" to convert to grams</p>
+
+<form action="/Imtog_result">
+  Moles of Iodine:<br>
+  <input type="text" name="m" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

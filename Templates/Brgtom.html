@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Brgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Bromine and click "submit" to convert to moles</p>
+
+<form action="/Brgtom_result">
+  Mass of Bromine:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

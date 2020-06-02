@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Vgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Vanadium and click "submit" to convert to moles</p>
+
+<form action="/Vgtom_result">
+  Mass of Vanadium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

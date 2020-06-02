@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Bkmtog{%  endblock %}
+
+{%  block content %}
+
+<p>Enter number of moles of Berkelium and click "submit" to convert to grams</p>
+
+<form action="/Bkmtog_result">
+  Moles of Berkelium:<br>
+  <input type="text" name="m" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

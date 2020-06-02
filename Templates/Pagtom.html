@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Pagtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Protactinum and click "submit" to convert to moles</p>
+
+<form action="/Pagtom_result">
+  Mass of Protactinum:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

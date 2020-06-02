@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Rbmtog{%  endblock %}
+
+{%  block content %}
+
+<p>Enter number of moles of Rubidium and click "submit" to convert to grams</p>
+
+<form action="/Rbmtog_result">
+  Moles of Rubidium:<br>
+  <input type="text" name="m" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

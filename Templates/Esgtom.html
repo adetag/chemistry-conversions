@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Esgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Einsteinium and click "submit" to convert to moles</p>
+
+<form action="/Esgtom_result">
+  Mass of Einsteinium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

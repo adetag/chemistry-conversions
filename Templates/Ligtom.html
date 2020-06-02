@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Ligtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Lithium and click "submit" to convert to moles</p>
+
+<form action="/Ligtom_result">
+  Mass of Lithium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

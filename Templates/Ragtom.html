@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Ragtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Radium and click "submit" to convert to moles</p>
+
+<form action="/Ragtom_result">
+  Mass of Radium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

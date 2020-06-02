@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Gemtog{%  endblock %}
+
+{%  block content %}
+
+<p>Enter number of moles of Germanium and click "submit" to convert to grams</p>
+
+<form action="/Gemtog_result">
+  Moles of Germanium:<br>
+  <input type="text" name="m" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

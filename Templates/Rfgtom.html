@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Rfgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Rutherfordium and click "submit" to convert to moles</p>
+
+<form action="/Rfgtom_result">
+  Mass of Rutherfordium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

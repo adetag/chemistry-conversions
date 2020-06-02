@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Cnmtog{%  endblock %}
+
+{%  block content %}
+
+<p>Enter number of moles of Copernicium and click "submit" to convert to grams</p>
+
+<form action="/Cnmtog_result">
+  Moles of Copernicium:<br>
+  <input type="text" name="m" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

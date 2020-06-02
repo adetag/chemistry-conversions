@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Sigtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Silicon and click "submit" to convert to moles</p>
+
+<form action="/Sigtom_result">
+  Mass of Silicon:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

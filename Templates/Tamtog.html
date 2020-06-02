@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Tamtog{%  endblock %}
+
+{%  block content %}
+
+<p>Enter number of moles of Tantalum and click "submit" to convert to grams</p>
+
+<form action="/Tamtog_result">
+  Moles of Tantalum:<br>
+  <input type="text" name="m" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

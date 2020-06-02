@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Gegtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Germanium and click "submit" to convert to moles</p>
+
+<form action="/Gegtom_result">
+  Mass of Germanium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

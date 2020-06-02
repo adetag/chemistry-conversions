@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Clgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Chlorine and click "submit" to convert to moles</p>
+
+<form action="/Clgtom_result">
+  Mass of Chlorine:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}

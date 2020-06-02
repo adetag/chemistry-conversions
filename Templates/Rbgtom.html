@@ -1,0 +1,15 @@
+{%  extends "layout.html" %}
+
+{%  block title %}Convert Rbgtom{%  endblock %}
+
+{%  block content %}
+
+<p>Enter a mass of Rubidium and click "submit" to convert to moles</p>
+
+<form action="/Rbgtom_result">
+  Mass of Rubidium:<br>
+  <input type="text" name="g" value="68.0">
+  <input type="submit" value="Submit">
+</form>
+
+{%  endblock %}
